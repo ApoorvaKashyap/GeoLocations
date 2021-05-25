@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c476cf3761284aadb5f04efc8a633931 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c476cf3761284aadb5f04efc8a633931" ></div>
+        
+</body>
+<script>    
+    
+            var map_c476cf3761284aadb5f04efc8a633931 = L.map(
+                "map_c476cf3761284aadb5f04efc8a633931",
+                {
+                    center: [49.0, 16.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_61d64a26ae224b2ab8fd0f9eb2b8ce31 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c476cf3761284aadb5f04efc8a633931);
+        
+    
+            var marker_25fd13cc3f474209994deb9e6ea81cbd = L.marker(
+                [49.0, 16.0],
+                {}
+            ).addTo(map_c476cf3761284aadb5f04efc8a633931);
+        
+    
+            var icon_50a56ba69a9541a8a20e99feab7938df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_25fd13cc3f474209994deb9e6ea81cbd.setIcon(icon_50a56ba69a9541a8a20e99feab7938df);
+        
+    
+        var popup_4a4b1f5c959d4e4b9cbd498e86987e78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a5d002ccb4544c5a43f13fe445970a1 = $(`<div id="html_5a5d002ccb4544c5a43f13fe445970a1" style="width: 100.0%; height: 100.0%;"><i> <b>Brno (Brno střed), South Moravian, CZ<b> </i></div>`)[0];
+            popup_4a4b1f5c959d4e4b9cbd498e86987e78.setContent(html_5a5d002ccb4544c5a43f13fe445970a1);
+        
+
+        marker_25fd13cc3f474209994deb9e6ea81cbd.bindPopup(popup_4a4b1f5c959d4e4b9cbd498e86987e78)
+        ;
+
+        
+    
+    
+            marker_25fd13cc3f474209994deb9e6ea81cbd.bindTooltip(
+                `<div>
+                     <i></b>147.229.2.90<i></b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_856bc005e8a24a5f85f9bfbed6dfaf81 = L.marker(
+                [49.0, 16.0],
+                {}
+            ).addTo(map_c476cf3761284aadb5f04efc8a633931);
+        
+    
+            var icon_b14d457c8980438e8552cd2de38c0505 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_856bc005e8a24a5f85f9bfbed6dfaf81.setIcon(icon_b14d457c8980438e8552cd2de38c0505);
+        
+    
+        var popup_ded8608e758f462da0280c095a5bb8a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4670d7559f04f5cb0a8431382e0af46 = $(`<div id="html_b4670d7559f04f5cb0a8431382e0af46" style="width: 100.0%; height: 100.0%;"><i> <b>Brno (Brno střed), South Moravian, CZ<b> </i></div>`)[0];
+            popup_ded8608e758f462da0280c095a5bb8a6.setContent(html_b4670d7559f04f5cb0a8431382e0af46);
+        
+
+        marker_856bc005e8a24a5f85f9bfbed6dfaf81.bindPopup(popup_ded8608e758f462da0280c095a5bb8a6)
+        ;
+
+        
+    
+    
+            marker_856bc005e8a24a5f85f9bfbed6dfaf81.bindTooltip(
+                `<div>
+                     <i></b>147.229.2.90<i></b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2f2703b5df540858786deea8370c3d9 = L.marker(
+                [49.0, 16.0],
+                {}
+            ).addTo(map_c476cf3761284aadb5f04efc8a633931);
+        
+    
+            var icon_fdab0a2e3e8342518922edf22f0622c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e2f2703b5df540858786deea8370c3d9.setIcon(icon_fdab0a2e3e8342518922edf22f0622c6);
+        
+    
+        var popup_ab1b7249405744d4b38f92c04693847f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8760e18d6ac840348d3f2ce0757a57a0 = $(`<div id="html_8760e18d6ac840348d3f2ce0757a57a0" style="width: 100.0%; height: 100.0%;"><i> <b>Brno (Brno střed), South Moravian, CZ<b> </i></div>`)[0];
+            popup_ab1b7249405744d4b38f92c04693847f.setContent(html_8760e18d6ac840348d3f2ce0757a57a0);
+        
+
+        marker_e2f2703b5df540858786deea8370c3d9.bindPopup(popup_ab1b7249405744d4b38f92c04693847f)
+        ;
+
+        
+    
+    
+            marker_e2f2703b5df540858786deea8370c3d9.bindTooltip(
+                `<div>
+                     <i></b>147.229.2.90<i></b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_308b0f9657eb4008bbc83ef50039d740 = L.marker(
+                [49.0, 16.0],
+                {}
+            ).addTo(map_c476cf3761284aadb5f04efc8a633931);
+        
+    
+            var icon_1c7b86c08c814f8e91d9b007cc14513b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_308b0f9657eb4008bbc83ef50039d740.setIcon(icon_1c7b86c08c814f8e91d9b007cc14513b);
+        
+    
+        var popup_a565ed4b38f944ab813566320a7972cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fab4cb92b6e4fb9a793a0dbff35a0a3 = $(`<div id="html_3fab4cb92b6e4fb9a793a0dbff35a0a3" style="width: 100.0%; height: 100.0%;"><i> <b>Brno (Brno střed), South Moravian, CZ<b> </i></div>`)[0];
+            popup_a565ed4b38f944ab813566320a7972cd.setContent(html_3fab4cb92b6e4fb9a793a0dbff35a0a3);
+        
+
+        marker_308b0f9657eb4008bbc83ef50039d740.bindPopup(popup_a565ed4b38f944ab813566320a7972cd)
+        ;
+
+        
+    
+    
+            marker_308b0f9657eb4008bbc83ef50039d740.bindTooltip(
+                `<div>
+                     <i></b>147.229.2.90<i></b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c299cec3cd3f4877813004bab8a3c0ad = L.marker(
+                [49.0, 16.0],
+                {}
+            ).addTo(map_c476cf3761284aadb5f04efc8a633931);
+        
+    
+            var icon_fb225c7acaef47839482cccc2669fd65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c299cec3cd3f4877813004bab8a3c0ad.setIcon(icon_fb225c7acaef47839482cccc2669fd65);
+        
+    
+        var popup_88718ba072df4effa586d9d951c8add2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f5950c99def4e8dab29f13f3c3b4961 = $(`<div id="html_4f5950c99def4e8dab29f13f3c3b4961" style="width: 100.0%; height: 100.0%;"><i> <b>Brno (Brno střed), South Moravian, CZ<b> </i></div>`)[0];
+            popup_88718ba072df4effa586d9d951c8add2.setContent(html_4f5950c99def4e8dab29f13f3c3b4961);
+        
+
+        marker_c299cec3cd3f4877813004bab8a3c0ad.bindPopup(popup_88718ba072df4effa586d9d951c8add2)
+        ;
+
+        
+    
+    
+            marker_c299cec3cd3f4877813004bab8a3c0ad.bindTooltip(
+                `<div>
+                     <i></b>147.229.2.90<i></b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce5ba600a4ce42c38b1d4805fc174c5d = L.marker(
+                [49.0, 16.0],
+                {}
+            ).addTo(map_c476cf3761284aadb5f04efc8a633931);
+        
+    
+            var icon_4fa6317ef134481da3e72a93af560bc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ce5ba600a4ce42c38b1d4805fc174c5d.setIcon(icon_4fa6317ef134481da3e72a93af560bc2);
+        
+    
+        var popup_39c2d790d3cb45dab24b22a49ddb8d99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7696f1275994b11ba82d1299a0ea27d = $(`<div id="html_b7696f1275994b11ba82d1299a0ea27d" style="width: 100.0%; height: 100.0%;"><i> <b>Brno (Brno střed), South Moravian, CZ<b> </i></div>`)[0];
+            popup_39c2d790d3cb45dab24b22a49ddb8d99.setContent(html_b7696f1275994b11ba82d1299a0ea27d);
+        
+
+        marker_ce5ba600a4ce42c38b1d4805fc174c5d.bindPopup(popup_39c2d790d3cb45dab24b22a49ddb8d99)
+        ;
+
+        
+    
+    
+            marker_ce5ba600a4ce42c38b1d4805fc174c5d.bindTooltip(
+                `<div>
+                     <i></b>147.229.2.90<i></b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccb865de13fd4aa99e91e06875964fb5 = L.marker(
+                [49.0, 16.0],
+                {}
+            ).addTo(map_c476cf3761284aadb5f04efc8a633931);
+        
+    
+            var icon_5ec696d9d5134b6a8358d1a1a5587571 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ccb865de13fd4aa99e91e06875964fb5.setIcon(icon_5ec696d9d5134b6a8358d1a1a5587571);
+        
+    
+        var popup_f0606d2288534f4482514de7cab7b434 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_467a6bde58f448f791a31d6aa8859391 = $(`<div id="html_467a6bde58f448f791a31d6aa8859391" style="width: 100.0%; height: 100.0%;"><i> <b>Brno (Brno střed), South Moravian, CZ<b> </i></div>`)[0];
+            popup_f0606d2288534f4482514de7cab7b434.setContent(html_467a6bde58f448f791a31d6aa8859391);
+        
+
+        marker_ccb865de13fd4aa99e91e06875964fb5.bindPopup(popup_f0606d2288534f4482514de7cab7b434)
+        ;
+
+        
+    
+    
+            marker_ccb865de13fd4aa99e91e06875964fb5.bindTooltip(
+                `<div>
+                     <i></b>147.229.2.90<i></b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0ff2ff4a42443d78a2eb2f0fcfacab4 = L.marker(
+                [49.0, 16.0],
+                {}
+            ).addTo(map_c476cf3761284aadb5f04efc8a633931);
+        
+    
+            var icon_81def470b42f4a95842ebad1f22959c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b0ff2ff4a42443d78a2eb2f0fcfacab4.setIcon(icon_81def470b42f4a95842ebad1f22959c1);
+        
+    
+        var popup_e9290bca182c49379ca1707d44aaf65e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7e0fa92bc994b29ad9c09e2ffcc4b5d = $(`<div id="html_f7e0fa92bc994b29ad9c09e2ffcc4b5d" style="width: 100.0%; height: 100.0%;"><i> <b>Brno (Brno střed), South Moravian, CZ<b> </i></div>`)[0];
+            popup_e9290bca182c49379ca1707d44aaf65e.setContent(html_f7e0fa92bc994b29ad9c09e2ffcc4b5d);
+        
+
+        marker_b0ff2ff4a42443d78a2eb2f0fcfacab4.bindPopup(popup_e9290bca182c49379ca1707d44aaf65e)
+        ;
+
+        
+    
+    
+            marker_b0ff2ff4a42443d78a2eb2f0fcfacab4.bindTooltip(
+                `<div>
+                     <i></b>147.229.2.90<i></b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbcca63f7d9444118f92de67463b5dd8 = L.marker(
+                [49.0, 16.0],
+                {}
+            ).addTo(map_c476cf3761284aadb5f04efc8a633931);
+        
+    
+            var icon_91db6c53ab0c47739f6fb04d961084d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fbcca63f7d9444118f92de67463b5dd8.setIcon(icon_91db6c53ab0c47739f6fb04d961084d6);
+        
+    
+        var popup_4f73b0aeafe544d89a617673c110fccf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3b250d211dd40b6881f43064459b505 = $(`<div id="html_d3b250d211dd40b6881f43064459b505" style="width: 100.0%; height: 100.0%;"><i> <b>Brno (Brno střed), South Moravian, CZ<b> </i></div>`)[0];
+            popup_4f73b0aeafe544d89a617673c110fccf.setContent(html_d3b250d211dd40b6881f43064459b505);
+        
+
+        marker_fbcca63f7d9444118f92de67463b5dd8.bindPopup(popup_4f73b0aeafe544d89a617673c110fccf)
+        ;
+
+        
+    
+    
+            marker_fbcca63f7d9444118f92de67463b5dd8.bindTooltip(
+                `<div>
+                     <i></b>147.229.2.90<i></b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_336b9dea4298459c843cdfce3d4e7790 = L.marker(
+                [49.0, 16.0],
+                {}
+            ).addTo(map_c476cf3761284aadb5f04efc8a633931);
+        
+    
+            var icon_5d5f377ac8064507a07a32ddf7ea0faa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_336b9dea4298459c843cdfce3d4e7790.setIcon(icon_5d5f377ac8064507a07a32ddf7ea0faa);
+        
+    
+        var popup_f5c1fcb5dd07437faa7e799dd133a60c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_464858462be740f2a0b2e926d241f58b = $(`<div id="html_464858462be740f2a0b2e926d241f58b" style="width: 100.0%; height: 100.0%;"><i> <b>Brno (Brno střed), South Moravian, CZ<b> </i></div>`)[0];
+            popup_f5c1fcb5dd07437faa7e799dd133a60c.setContent(html_464858462be740f2a0b2e926d241f58b);
+        
+
+        marker_336b9dea4298459c843cdfce3d4e7790.bindPopup(popup_f5c1fcb5dd07437faa7e799dd133a60c)
+        ;
+
+        
+    
+    
+            marker_336b9dea4298459c843cdfce3d4e7790.bindTooltip(
+                `<div>
+                     <i></b>147.229.2.90<i></b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75ec00fefbcc4caab5e10114b8b6335e = L.marker(
+                [49.0, 16.0],
+                {}
+            ).addTo(map_c476cf3761284aadb5f04efc8a633931);
+        
+    
+            var icon_e037c3ef48a947c6911930d1c5145a76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_75ec00fefbcc4caab5e10114b8b6335e.setIcon(icon_e037c3ef48a947c6911930d1c5145a76);
+        
+    
+        var popup_a72c31b390c946fa98915845be2923b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb5c085abe2f48f6a39c132f96978a6a = $(`<div id="html_fb5c085abe2f48f6a39c132f96978a6a" style="width: 100.0%; height: 100.0%;"><i> <b>Brno (Brno střed), South Moravian, CZ<b> </i></div>`)[0];
+            popup_a72c31b390c946fa98915845be2923b1.setContent(html_fb5c085abe2f48f6a39c132f96978a6a);
+        
+
+        marker_75ec00fefbcc4caab5e10114b8b6335e.bindPopup(popup_a72c31b390c946fa98915845be2923b1)
+        ;
+
+        
+    
+    
+            marker_75ec00fefbcc4caab5e10114b8b6335e.bindTooltip(
+                `<div>
+                     <i></b>147.229.2.90<i></b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a46f983ae728468e960d9ae556a71003 = L.marker(
+                [49.0, 16.0],
+                {}
+            ).addTo(map_c476cf3761284aadb5f04efc8a633931);
+        
+    
+            var icon_7fed96cb94604cffb09afa57e79b1182 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a46f983ae728468e960d9ae556a71003.setIcon(icon_7fed96cb94604cffb09afa57e79b1182);
+        
+    
+        var popup_414adec865bb4b6584bbdc76233d8985 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_acd026d393754c69bebafd709bb03c4b = $(`<div id="html_acd026d393754c69bebafd709bb03c4b" style="width: 100.0%; height: 100.0%;"><i> <b>Brno (Brno střed), South Moravian, CZ<b> </i></div>`)[0];
+            popup_414adec865bb4b6584bbdc76233d8985.setContent(html_acd026d393754c69bebafd709bb03c4b);
+        
+
+        marker_a46f983ae728468e960d9ae556a71003.bindPopup(popup_414adec865bb4b6584bbdc76233d8985)
+        ;
+
+        
+    
+    
+            marker_a46f983ae728468e960d9ae556a71003.bindTooltip(
+                `<div>
+                     <i></b>147.229.2.90<i></b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
