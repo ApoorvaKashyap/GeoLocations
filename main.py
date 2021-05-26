@@ -1,5 +1,4 @@
 from mods.netCall import runPing, traces, processors, whois, mapit
-import folium 
 import webbrowser
 import sys
 

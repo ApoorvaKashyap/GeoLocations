@@ -2,6 +2,8 @@
 
 Developed by: [Apoorva Kashyap](https://github.com/ApoorvaKashyap)
 
+<img src="https://img.shields.io/github/pipenv/locked/dependency-version/ApoorvaKashyap/GeoLocations/folium" alt="folium-dependency">
+
 ## Table of Contents
 
 - [GeoLocations](#geolocations)
