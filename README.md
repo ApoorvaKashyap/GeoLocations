@@ -2,7 +2,6 @@
 
 Developed by: [Apoorva Kashyap](https://github.com/ApoorvaKashyap)
 
-
 ## Table of Contents
 
 - [GeoLocations](#geolocations)
