@@ -31,18 +31,6 @@ def traces(ip):
     else:
         print("Route Traced Successfully")
 
-# def getInfo(url):
-#     try:
-#         details = subprocess.run('curl {}'.format(url), stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True)
-#         if details.stderr:
-#             raise details.stderr
-#     except Exception as e:
-#         print(e)
-#         print("Please solve this error before trying again.")
-#     else:
-#         print(details.stdout)
-#         return details.stdout
-
 def whois(lotsIP):
     base = "http://ipwhois.app/json/"
     locations = []
@@ -107,6 +95,4 @@ def processors(ip):
         return adresses
 
 if __name__ == "__main__":
-    ip = ['8.8.8.8', '17.2.5.6','* * *','7.52.37.32']
-    locs = whois(ip)
-    name = mapit(locs)
+    print("Please run main.py!!")
