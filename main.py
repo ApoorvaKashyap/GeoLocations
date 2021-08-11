@@ -6,10 +6,11 @@ if __name__ == "__main__":
     if runPing(sys.argv[1]):
         traces(sys.argv[1])
         lotsIP = processors(sys.argv[1])
-        if len(lotsIP) > 0:
+        if lotsIP:
             locations = whois(lotsIP)
+            name = mapit(locations)
+            webbrowser.open(name)
         else:
             print("Error!!!! \nPlease try again..")
-        name = mapit(locations)
-        webbrowser.open(name)
+
         
