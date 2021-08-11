@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "geolocations"
+version = "0.1.0"
+description = "A small program that maps the path a request follows through the internet."
+authors = ["ApoorvaKashyap <apoorvakashyap54@gmail.com>"]
+license = "GPLv3"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+folium = "^0.12.1"
+rich = "^10.7.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.7b0"
+isort = "^5.9.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

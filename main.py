@@ -1,6 +1,7 @@
 from mods.netCall import runPing, traces, processors, whois, mapit
 import webbrowser
 import sys
+from rich import print
 
 if __name__ == "__main__":
     if runPing(sys.argv[1]):
@@ -11,6 +12,4 @@ if __name__ == "__main__":
             name = mapit(locations)
             webbrowser.open(name)
         else:
-            print("Error!!!! \nPlease try again..")
-
-        
+            print("[bold red]Error!!!! \nPlease try again..")
