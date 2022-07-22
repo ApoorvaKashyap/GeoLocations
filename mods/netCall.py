@@ -153,7 +153,9 @@ def whois(lotsIP):
         print("[bold red]At Whois at {}\n{}".format(i, e))
         quit()
     else:
-        print("[bold italic green]IP Geolocation successful.\n [/bold italic green][italic cyan]Now Printing Maps...")
+        print(
+            "[bold italic green]IP Geolocation successful.\n [/bold italic green][italic cyan]Now Printing Maps..."
+        )
         return locations
 
 

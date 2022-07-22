@@ -4,8 +4,6 @@ Developed by: [Apoorva Kashyap](https://github.com/ApoorvaKashyap)
 
 <img src="https://img.shields.io/github/last-commit/ApoorvaKashyap/GeoLocations" alt="Last Commit"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://img.shields.io/github/commit-activity/w/ApoorvaKashyap/GeoLocations" alt="Commit Activity"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://img.shields.io/github/search/ApoorvaKashyap/GeoLocations/goto" alt="Goto Counter">
 <br>
-<img src="https://img.shields.io/github/pipenv/locked/dependency-version/ApoorvaKashyap/GeoLocations/folium" alt="folium-dependency"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://img.shields.io/github/pipenv/locked/dependency-version/ApoorvaKashyap/GeoLocations/urllib3" alt="urllib3-dependency"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://img.shields.io/github/pipenv/locked/dependency-version/ApoorvaKashyap/GeoLocations/requests" alt="requests-dependency">
-
 
 ## Table of Contents
 
